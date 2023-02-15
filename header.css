@@ -1,1 +1,37 @@
+header {
+    position: fixed;
+    background-color: rgba(0, 99, 115, 1);
+    width: 100%;
+    padding: 30px;
+}
 
+@media (max-width: 1000px) {
+    .header-desktop {
+        display: none;
+    }
+
+    nav,
+    #menu-checkbox {
+        display: none;
+    }
+
+    #menu-checkbox:checked ~ nav {
+        display: block;
+    }
+
+    .header-mobile {
+        float: right;
+    }
+
+    .header-mobile nav a {
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 1001px) {
+    .header-mobile {
+        display: none;
+    }
+}
