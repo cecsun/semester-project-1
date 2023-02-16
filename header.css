@@ -9,25 +9,6 @@ header {
     .header-desktop {
         display: none;
     }
-
-    nav,
-    #menu-checkbox {
-        display: none;
-    }
-
-    #menu-checkbox:checked ~ nav {
-        display: block;
-    }
-
-    .header-mobile {
-        float: right;
-    }
-
-    .header-mobile nav a {
-        display: block;
-    }
-
-
 }
 
 @media (min-width: 1001px) {
