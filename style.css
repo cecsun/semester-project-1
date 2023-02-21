@@ -70,15 +70,19 @@ body {
 /* Visit 
 --------------------- */
 
+.visit {
+    margin-bottom: 60px;
+}
+
 .visit h1 {
     text-transform: uppercase;
     color: white;
     font-size: 20px;
     background-color: rgba(232, 137, 29, 1);
     padding: 10px;
-    margin-right: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -115,4 +119,54 @@ body {
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* Get involved 
+----------------- */
+
+.get-involved {
+    margin-bottom: 60px;
+}
+
+.get-involved h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(232, 137, 29, 1);
+    padding: 10px;
+    margin-right: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.get-involved img {
+    width: 100%;
+}
+
+.support, .volunteer, .internships {
+    position: relative;
+    border: 5px solid rgba(0, 99, 115, 1);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.support-text, .volunteer-text, .internships-text {
+    position: absolute;
+    top: 0;
+    background-color: rgba(217, 228, 222, 0.8);
+    text-align: center;
+}
+
+.support-text h2, .volunteer-text h2, .internships-text h2 {
+    color: rgba(0, 99, 115, 1);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.support-text p, .volunteer-text p, .internships-text p {
+    font-size: 16px;
+    padding: 5px;
 }

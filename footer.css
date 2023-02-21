@@ -1,1 +1,10 @@
+footer {
+    background-color: rgba(0, 99, 115, 1);
+    width: 100%;
+}
 
+footer p {
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}
