@@ -43,15 +43,22 @@ body {
 }
 
 .robotics {
+    /* position: fixed; */
     position: relative;
+    display: grid;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.robotics-text-h2 h2 {
+.robotics-heading, .robotics-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.robotics-heading h2 {
     position: absolute;
-    bottom: 4px;
     color: rgba(232, 137, 29, 1);
     background-color: white;
     text-transform: uppercase;
@@ -60,13 +67,33 @@ body {
     text-align: center;
 }
 
-.robotics-text-p p {
-    position: absolute;
+.robotics-text p {
     font-size: 16px;
     padding: 20px;
     background-color: rgba(5, 163, 164, 1);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.exhibition-spaces {
+    display: flex;
+    justify-content: center;
+}
+
+.exhibition-spaces-button {
+    background-color: rgba(232, 137, 29, 1);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.exhibition-spaces-button a {
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 
