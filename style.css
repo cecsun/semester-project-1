@@ -17,54 +17,66 @@ body {
     background-color: rgba(217, 228, 222, 1);
 }
 
+/* Homepage
+------------------ */
 
+.homepage {
+    margin-bottom: 60px;
+}
 
-
-
-
-
-/* h1 {
-    padding: 15px;
+.homepage h1 {
+    text-transform: uppercase;
+    color: white;
     font-size: 20px;
     background-color: rgba(232, 137, 29, 1);
-    margin-right: 130px;
-    margin-top: 30px;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-
-.exhibition-home {
-    position: relative;
-    text-align: center;
-    color: rgba(232, 137, 29, 1);
-    margin: 20px;
-}
-
-.exhibition-home img {
-    width: 100%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-}
-
-.exhibition-home .text {
-    position: absolute;
-    bottom: 140px;
     padding: 10px;
+    margin-right: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.robotics img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.robotics {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.robotics-text-h2 h2 {
+    position: absolute;
+    bottom: 4px;
+    color: rgba(232, 137, 29, 1);
     background-color: white;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 18px;
+    padding: 15px;
+    text-align: center;
 }
 
-.exhibition-home p {
-    color: black;
+.robotics-text-p p {
+    position: absolute;
+    font-size: 16px;
+    padding: 20px;
     background-color: rgba(5, 163, 164, 1);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 
-} */
+
+
+
+
+
+
+
+
 
 
 /* Visit 
@@ -80,7 +92,7 @@ body {
     font-size: 20px;
     background-color: rgba(232, 137, 29, 1);
     padding: 10px;
-    margin-right: 40%;
+    margin-right: 35%;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
@@ -134,7 +146,7 @@ body {
     font-size: 20px;
     background-color: rgba(232, 137, 29, 1);
     padding: 10px;
-    margin-right: 40%;
+    margin-right: 35%;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
@@ -142,7 +154,6 @@ body {
 
 .get-involved img {
     width: 100%;
-    height: 650px;
 }
 
 .support, .volunteer, .internships {
@@ -156,7 +167,7 @@ body {
 .support-text, .volunteer-text, .internships-text {
     position: absolute;
     top: 0;
-    background-color: rgba(217, 228, 222, 0.8);
+    background-color: rgba(217, 228, 222, 1);
     text-align: center;
 }
 
