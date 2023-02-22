@@ -43,7 +43,7 @@ body {
 }
 
 .robotics {
-    position: relative;
+    /* position: relative; */
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
@@ -417,7 +417,7 @@ body {
 }
 
 .for-kids {
-    position: relative;
+    /* position: relative; */
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
@@ -462,7 +462,7 @@ body {
 }
 
 .for-teachers {
-    position: relative;
+    /* position: relative; */
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
@@ -507,7 +507,7 @@ body {
 }
 
 .for-researchers {
-    position: relative;
+    /* position: relative; */
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
@@ -570,7 +570,7 @@ body {
 }
 
 .robotics1, .ecology, .evolution, .cosmology, .medicine {
-    position: relative;
+    /* position: relative; */
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
