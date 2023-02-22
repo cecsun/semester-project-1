@@ -96,6 +96,11 @@ body {
     font-size: 18px;
 }
 
+
+
+/* Explore
+-------------------- */
+
 .explore h3 {
     text-transform: uppercase;
     color: white;
@@ -156,11 +161,131 @@ body {
     font-size: 18px;
 } */
 
+/* Special events and exhibitions
+------------------------------------- */
+
+.events img {
+    width: 100%;
+}
+
+.events {
+    position: relative;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.events-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.events-heading h4 {
+    position: absolute;
+    color: rgba(0, 99, 115, 1);
+    background-color: rgba(217, 228, 222, 0.75);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+.events-text {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.professor-text, .night-text, .energetica-text {
+    background-color: rgba(0, 99, 115, 1);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.events-text h5 {
+    color: rgba(232, 137, 29, 1);
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.events-text p {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
 
 
 
+/* About 
+------------------- */
+.about {
+    margin-bottom: 60px;
+}
 
+.about h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(232, 137, 29, 1);
+    padding: 10px;
+    margin-right: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
+.about-text {
+    background-color: rgba(5, 163, 164, 1);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.about p {
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+.images1 img {
+    width: 210px;
+    margin-top: 10px;
+}
+
+.images1 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.images1 .column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.images1 .column1 img {
+    height: 150px;
+}
+
+.images2 img {
+    width: 100%;
+}
+
+.images2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
@@ -267,4 +392,159 @@ body {
 .support-text p, .volunteer-text p, .internships-text p {
     font-size: 16px;
     padding: 5px;
+}
+
+/* Explore page 
+-------------------- */
+
+.explore-page {
+    margin-bottom: 60px;
+}
+
+.explore-page h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(232, 137, 29, 1);
+    padding: 10px;
+    margin-right: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.for-kids img {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.for-kids {
+    position: relative;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.for-kids-heading, .for-kids-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.for-kids-heading h2 {
+    position: absolute;
+    color: rgba(232, 137, 29, 1);
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.for-kids-text {
+    background-color: rgba(0, 99, 115, 1);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.for-kids-text p {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+}
+
+.for-teachers img {
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.for-teachers {
+    position: relative;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.for-teachers-heading, .for-teachers-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.for-teachers-heading h2 {
+    position: absolute;
+    color: rgba(232, 137, 29, 1);
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.for-teachers-text {
+    background-color: rgba(0, 99, 115, 1);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.for-teachers-text p {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+}
+
+.for-researchers img {
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.for-researchers {
+    position: relative;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.for-researchers-heading, .for-researchers-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.for-researchers-heading h2 {
+    position: absolute;
+    color: rgba(232, 137, 29, 1);
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.for-researchers-text {
+    background-color: rgba(0, 99, 115, 1);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.for-researchers-text p {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
 }
