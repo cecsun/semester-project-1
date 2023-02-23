@@ -44,7 +44,6 @@ body {
     }
 
     .robotics {
-        /* position: relative; */
         display: grid;
         margin-left: 10px;
         margin-right: 10px;
@@ -477,14 +476,19 @@ body {
     .homepage h1 {
         text-transform: uppercase;
         color: white;
-        font-size: 20px;
+        font-size: 30px;
         background-color: rgba(232, 137, 29, 1);
-        padding: 10px;
-        width: 250px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding: 20px;
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 60px;
         text-align: center;
     }
+
+    /* .exhibition-spaces-content {
+        display: flex;
+        flex-direction: row;
+    } */
 
     .robotics img {
         width: 100%;
@@ -493,7 +497,6 @@ body {
     }
 
     .robotics {
-        /* position: relative; */
         display: grid;
         margin-left: 10px;
         margin-right: 10px;
@@ -559,9 +562,9 @@ body {
     }
 
     .events {
-        position: relative;
-        display: grid;
-        margin-top: 50px;
+        /* position: relative; */
+        /* display: grid; */
+        margin-top: 100px;
         margin-bottom: 30px;
     }
 
@@ -585,14 +588,15 @@ body {
         margin-right: 10px;
         margin-left: 10px;
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
 
     .professor-text, .night-text, .energetica-text {
         background-color: rgba(0, 99, 115, 1);
         border-radius: 10px;
         padding: 5px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 20px;
     }
 
     .events-text h5 {
