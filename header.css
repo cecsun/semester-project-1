@@ -3,7 +3,7 @@ header {
     width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .header-desktop {
         display: none;
     }
@@ -59,7 +59,7 @@ header {
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1301px) {
     .header-mobile {
         display: none;
     }

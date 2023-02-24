@@ -17,7 +17,7 @@ body {
     background-color: rgba(191, 213, 201, 1);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     /* Homepage
     ------------------ */
 
@@ -130,9 +130,8 @@ body {
         color: rgba(0, 99, 115, 1);
         background-color: rgba(191, 213, 201, 0.75);
         text-transform: uppercase;
-        width: 250px;
         font-size: 18px;
-        padding: 15px;
+        padding: 8px;
         text-align: center;
     }
 
@@ -472,7 +471,7 @@ body {
 
 
 
-@media (min-width: 701px) {
+@media (min-width: 801px) {
 
     .homepage, .exhibition-spaces {
         margin-bottom: 60px;
@@ -582,7 +581,6 @@ body {
     -------------------- */
 
 
-
     /* Special events and exhibitions
     ------------------------------------- */
 
@@ -595,8 +593,6 @@ body {
         /* display: grid; */
         margin-top: 100px;
         margin-bottom: 30px;
-        margin-right: 300px;
-        margin-left: 300px;
     }
 
     .events-heading {
