@@ -474,11 +474,11 @@ body {
 
 @media (min-width: 701px) {
 
-    .homepage {
+    .homepage, .exhibition-spaces {
         margin-bottom: 60px;
     }
 
-    .homepage h1 {
+    .homepage h1, .exhibition-spaces h1 {
         text-transform: uppercase;
         color: white;
         font-size: 30px;
@@ -498,7 +498,7 @@ body {
         display: none;
     }
 
-    .exhibition-spaces-desktop {
+    .exhibition-spaces-desktop, .exhibition-spaces-mobile {
         display: flex;
         flex-direction: row;
     }
@@ -540,7 +540,8 @@ body {
     }
 
     .robotics1, .ecology, .evolution, .cosmology, .medicine {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 20px;
@@ -552,6 +553,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        height: fit-content;
     }
 
     .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
@@ -650,12 +652,12 @@ body {
     .about h1 {
         text-transform: uppercase;
         color: white;
-        font-size: 20px;
+        font-size: 30px;
         background-color: rgba(232, 137, 29, 1);
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding: 20px;
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 60px;
         text-align: center;
     }
 
@@ -663,6 +665,7 @@ body {
         background-color: rgba(5, 163, 164, 1);
         margin-left: 10px;
         margin-right: 10px;
+        width: 500px;
         margin-top: 20px;
         margin-bottom: 20px;
         border-radius: 10px;
@@ -671,7 +674,7 @@ body {
     .about p {
         color: black;
         font-size: 16px;
-        padding: 10px;
+        padding: 30px;
         text-align: center;
     }
 
