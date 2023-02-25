@@ -20,7 +20,7 @@ body {
     background-color: rgba(191, 213, 201, 1);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     /* Homepage
     ------------------ */
 
@@ -105,7 +105,67 @@ body {
 
     /* Explore-home
     -------------------- */
+    .explore {
+        margin-bottom: 60px;
+    }
 
+    .explore h3 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 20px;
+        background-color: rgba(0, 99, 115, 1);
+        padding: 10px;
+        width: 300px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+        /* float: right; */
+    }
+
+    .explore-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .explore-content img {
+        width: 100%;
+        object-fit: fill;
+        border-radius: 50%;
+        border: 3px solid rgba(232, 137, 29, 1);
+    }
+
+    .explore-image {
+        flex: 1 1 0px;
+        margin: 5px;
+        min-width: 0;
+    }
+
+    .explore-content p {
+        display: none;
+    }
+
+    .explore-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .explore-button1 {
+        background-color: rgba(0, 99, 115, 1);
+        margin-top: 30px;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .explore-button1 a {
+        color: white;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+    }
 
 
     /* Special events and exhibitions
@@ -474,7 +534,7 @@ body {
 
 
 
-@media (min-width: 801px) {
+@media (min-width: 1001px) {
 
     .homepage {
         margin-bottom: 60px;
@@ -499,8 +559,8 @@ body {
     .exhibition-spaces1 {
         display: flex;
         flex-direction: row;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .exhibition-spaces2 {
@@ -538,7 +598,7 @@ body {
         color: rgba(232, 137, 29, 1);
         background-color: white;
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 20px;
@@ -547,7 +607,7 @@ body {
     }
 
     .robotics1-text p, .ecology-text p, .evolution-text p {
-        font-size: 16px;
+        font-size: 18px;
         padding: 20px;
     }
 
@@ -584,18 +644,74 @@ body {
         margin-bottom: 60px;
     }
 
-    
-
     .explore h3 {
         text-transform: uppercase;
         color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
+        background-color: rgba(0, 99, 115, 1);
         padding: 20px;
         width: 400px;
         margin-top: 80px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         text-align: center;
+        /* float: right; */
+    }
+
+    .explore-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .explore-content img {
+        width: 100%;
+        object-fit: fill;
+        border-radius: 50%;
+        border: 3px solid rgba(232, 137, 29, 1);
+    }
+
+    .explore-image {
+        flex: 1 1 0px;
+        margin: 10px;
+        min-width: 0;
+    }
+
+    .explore-content p {
+        display: none;
+    }
+        /* text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        background-color: rgba(232, 137, 29, 1);
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+    } */
+
+    .explore-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .explore-button1 {
+        background-color: rgba(0, 99, 115, 1);
+        margin-top: 30px;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .explore-button1 a {
+        color: white;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
     }
 
 
@@ -610,8 +726,10 @@ body {
     .events {
         /* position: relative; */
         /* display: grid; */
-        margin-top: 100px;
-        margin-bottom: 30px;
+        /* margin-top: 100px; */
+        margin-bottom: 60px;
+        margin-right: 20%;
+        margin-left: 20%;
     }
 
     .events-heading {
@@ -625,8 +743,8 @@ body {
         color: rgba(0, 99, 115, 1);
         background-color: rgba(191, 213, 201, 0.75);
         text-transform: uppercase;
-        font-size: 18px;
-        padding: 15px;
+        font-size: 30px;
+        padding: 20px;
         text-align: center;
     }
 
@@ -642,19 +760,19 @@ body {
         background-color: rgba(0, 99, 115, 1);
         border-radius: 10px;
         padding: 5px;
-        margin: 20px;
+        margin: 10px;
     }
 
     .events-text h5 {
         color: rgba(232, 137, 29, 1);
-        font-size: 18px;
+        font-size: 20px;
         padding: 5px;
         text-transform: uppercase;
     }
 
     .events-text p {
         color: white;
-        font-size: 16px;
+        font-size: 18px;
         padding: 5px;
     }
 
@@ -662,6 +780,11 @@ body {
     ------------------- */
     .about {
         margin-bottom: 60px;
+    }
+
+    .about-content {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .about h1 {
@@ -678,11 +801,10 @@ body {
 
     .about-text {
         background-color: rgba(5, 163, 164, 1);
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 500px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         border-radius: 10px;
     }
 
@@ -736,15 +858,20 @@ body {
         margin-bottom: 60px;
     }
 
+    .visit-content {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
     .visit h1 {
         text-transform: uppercase;
         color: white;
-        font-size: 20px;
+        font-size: 30px;
         background-color: rgba(232, 137, 29, 1);
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding: 20px;
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 60px;
         text-align: center;
     }
 
@@ -790,15 +917,25 @@ body {
         margin-bottom: 60px;
     }
 
+    .get-involved-content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .get-involved-content {
+        display: flex;
+        flex-direction: row;
+    }
+
     .get-involved h1 {
         text-transform: uppercase;
         color: white;
-        font-size: 20px;
+        font-size: 30px;
         background-color: rgba(232, 137, 29, 1);
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding: 20px;
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 60px;
         text-align: center;
     }
 
@@ -815,6 +952,7 @@ body {
         background-color: rgba(191, 213, 201, 1);
         text-align: center;
         border: 5px solid rgba(0, 99, 115, 1);
+        flex: 1 0 0px;
     }
 
     .support-text, .volunteer-text, .internships-text {
@@ -853,6 +991,13 @@ body {
         margin-top: 30px;
         margin-bottom: 30px;
         text-align: center;
+    }
+
+    .explore-content1 {
+        margin-right: 15%;
+        margin-left: 15%;
+        display: flex;
+        flex-direction: row;
     }
 
     .for-kids img, .for-teachers img, .for-researchers img {
