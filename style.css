@@ -476,17 +476,17 @@ body {
 
 @media (min-width: 801px) {
 
-    .homepage, .exhibition-spaces {
+    .homepage {
         margin-bottom: 60px;
     }
 
-    .homepage h1, .exhibition-spaces h1 {
+    .homepage h1 {
         text-transform: uppercase;
         color: white;
         font-size: 30px;
         background-color: rgba(232, 137, 29, 1);
         padding: 20px;
-        width: 350px;
+        width: 400px;
         margin-top: 80px;
         margin-bottom: 60px;
         text-align: center;
@@ -496,26 +496,25 @@ body {
         display: none;
     }
 
-    .exhibition-button {
+    .exhibition-spaces1 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .exhibition-spaces2 {
         display: none;
     }
 
-    .exhibition-spaces-desktop, .exhibition-spaces-mobile {
-        display: flex;
-        flex-direction: row;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
+    .robotics1 img, .ecology img, .evolution img {
         width: 100%;
-        /* height: 200px; */
         object-fit: fill;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
     }
 
-    .robotics1, .ecology, .evolution, .cosmology, .medicine {
+    .robotics1, .ecology, .evolution {
         display: flex;
         flex-direction: column;
         margin-left: 10px;
@@ -527,14 +526,14 @@ body {
 
     }
 
-    .robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text, .cosmology-heading, .cosmology-text, .medicine-heading, .medicine-text {
+    .robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         height: fit-content;
     }
 
-    .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
+    .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2 {
         position: absolute;
         color: rgba(232, 137, 29, 1);
         background-color: white;
@@ -547,17 +546,58 @@ body {
         text-align: center;
     }
 
-    .robotics1-text p, .ecology-text p, .evolution-text p, .cosmology-text p, .medicine-text p {
+    .robotics1-text p, .ecology-text p, .evolution-text p {
         font-size: 16px;
         padding: 20px;
     }
 
+    .exhibition-spaces-button {
+        display: none;
+    }
 
+    .exhibition-button1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .exhibition-spaces-button1 {
+        background-color: rgba(232, 137, 29, 1);
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .exhibition-spaces-button1 a {
+        color: white;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+    }
 
 
 
     /* Explore-home
     -------------------- */
+    .explore {
+        margin-bottom: 60px;
+    }
+
+    
+
+    .explore h3 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        background-color: rgba(232, 137, 29, 1);
+        padding: 20px;
+        width: 400px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
 
 
     /* Special events and exhibitions
@@ -859,4 +899,80 @@ body {
         color: white;
     }
 
+    /* Exhibition spaces page 
+    -------------------- */
+
+    .exhibition-spaces {
+        margin-bottom: 60px;
+    }
+
+    .exhibition-spaces h1 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        background-color: rgba(232, 137, 29, 1);
+        padding: 20px;
+        width: 400px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .exhibition-spaces3 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .exhibition-spaces4 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
+        width: 100%;
+        object-fit: fill;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .robotics1, .ecology, .evolution, .cosmology, .medicine {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        background-color: rgba(5, 163, 164, 1);
+        border-radius: 20px;
+        flex: 1 1 0px;
+
+    }
+
+    .robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text, .cosmology-heading, .cosmology-text, .medicine-heading, .medicine-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: fit-content;
+    }
+
+    .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
+        position: absolute;
+        color: rgba(232, 137, 29, 1);
+        background-color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .robotics1-text p, .ecology-text p, .evolution-text p, .cosmology-text p, .medicine-text p {
+        font-size: 16px;
+        padding: 20px;
+    }
 }
