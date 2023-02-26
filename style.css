@@ -941,18 +941,19 @@ body {
 
     .support img, .volunteer img, .internships img {
         width: 100%;
+        object-fit: fill;
     }
 
     .support, .volunteer, .internships {
         /* position: relative; */
-        display: grid;
+        /* display: grid; */
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 20px;
         background-color: rgba(191, 213, 201, 1);
         text-align: center;
         border: 5px solid rgba(0, 99, 115, 1);
-        flex: 1 0 0px;
+        flex: 1 1 0px;
     }
 
     .support-text, .volunteer-text, .internships-text {
