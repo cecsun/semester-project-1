@@ -5,6 +5,19 @@ footer {
 
 footer p {
     color: white;
-    font-size: 12px;
-    padding: 20px;
 }
+
+@media (max-width: 1300px) {
+    footer p {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1301px) {
+    footer p {
+        font-size: 14px;
+        padding: 30px;
+    }
+}
+
