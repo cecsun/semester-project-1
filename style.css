@@ -229,6 +229,11 @@ body {
     border-top-left-radius: 30px;
 }
 
+.for-kids-text, .for-teachers-text, .for-researchers-text {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
 .for-kids, .for-teachers, .for-researchers {
     margin-left: 10px;
     margin-right: 10px;
@@ -247,8 +252,6 @@ body {
 
 .for-kids-text, .for-teachers-text, .for-researchers-text {
     background-color: rgba(0, 99, 115, 1);
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
 }
 
 .for-kids-text p, .for-teachers-text p, .for-researchers-text p {
@@ -285,13 +288,21 @@ body {
     padding: 20px;
 }
 
-
-
-
 @media (max-width: 800px) {
+    .robotics, .explore-content1, .exhibition-spaces-mobile {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .explore-content, .about-content, .visit-content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 800px), (min-width: 801px) and (max-width: 1300px) {
     /* Homepage
     ------------------ */
-
     .homepage h1 {
         font-size: 20px;
         padding: 10px;
@@ -317,8 +328,6 @@ body {
         margin-bottom: 20px;
         background-color: rgba(5, 163, 164, 1);
         border-radius: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
     }
 
     .robotics-heading, .robotics-text {
@@ -363,22 +372,13 @@ body {
         font-size: 18px;
     }
 
-
-
     /* Explore-home
     -------------------- */
-    
-
     .explore h3 {
         font-size: 20px;
         padding: 10px;
         width: 300px;
         margin-bottom: 50px;
-    }
-
-    .explore-content {
-        margin-left: 5%;
-        margin-right: 5%;
     }
 
     .explore-image {
@@ -393,12 +393,8 @@ body {
         font-size: 18px;
     }
 
-
     /* Special events and exhibitions
     ------------------------------------- */
-
-    
-
     .events {
         position: relative;
         display: grid;
@@ -426,12 +422,7 @@ body {
 
     /* About 
     ------------------- */
-    .about-content {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .about h1 {
+    .about h1, .visit h1, .get-involved h1, .explore-page h1 {
         font-size: 20px;
         padding: 10px;
         width: 200px;
@@ -452,59 +443,21 @@ body {
 
     /* Visit 
     --------------------- */
-    .visit-content {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .visit h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+    
 
     /* Get involved 
     ----------------- */
-
     .get-involved-content {
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    .get-involved h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .support, .volunteer, .internships {
+    .support, .volunteer, .internships, .for-kids, .for-teachers, .for-researchers {
         display: grid;
     }
 
     /* Explore page 
     -------------------- */
-
-    .explore-page h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .explore-content1 {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .for-kids, .for-teachers, .for-researchers {
-        display: grid;
-    }
-
     .for-kids-heading h2, .for-teachers-heading h2, .for-researchers-heading h2 {
         font-size: 18px;
         padding-right: 50px;
@@ -525,11 +478,6 @@ body {
         margin-bottom: 30px;
     }
 
-    .exhibition-spaces-mobile {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
     .robotics1, .ecology, .evolution, .cosmology, .medicine {
         display: grid;
     }
@@ -544,183 +492,27 @@ body {
 }
 
 @media (min-width: 801px) and (max-width: 1300px) {
-        /* Homepage
-    ------------------ */
-
-    .homepage h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 250px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .exhibition-spaces-desktop {
-        display: none;
-    }
-
-    .robotics img {
-        width: 100%;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-
-    .robotics {
-        display: grid;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        background-color: rgba(5, 163, 164, 1);
-        border-radius: 20px;
+   
+    .robotics, .exhibition-spaces-mobile {
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    .robotics-heading, .robotics-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+    .events, .about-content, .visit-content {
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
-    .robotics-heading h2 {
-        position: absolute;
-        color: rgba(232, 137, 29, 1);
-        background-color: white;
-        text-transform: uppercase;
-        font-size: 18px;
-        padding: 15px;
-        text-align: center;
+    .explore-content1 {
+        margin-right: 5%;
+        margin-left: 5%;
     }
+}
 
-    .robotics-text p {
-        font-size: 16px;
-        padding: 20px;
-    }
-
-    .exhibition-button {
-        display: flex;
-        justify-content: center;
-    }
-
-    .exhibition-spaces-button {
-        background-color: rgba(232, 137, 29, 1);
-        border: none;
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-    .exhibition-spaces-button a {
-        color: white;
-        text-transform: uppercase;
-        padding: 10px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-
-
-    /* Explore-home
-    -------------------- */
-
-    .explore h3 {
-        font-size: 20px;
-        padding: 10px;
-        width: 300px;
-        margin-bottom: 50px;
-    }
-
+@media (min-width: 1301px), (min-width: 801px) and (max-width: 1300px) {
     .explore-content {
-        margin-left: 15%;
         margin-right: 15%;
-    }
-
-    .explore-image {
-        margin: 5px;
-    }
-
-    .explore-button1 a {
-        font-size: 18px;
-    }
-
-
-    /* Special events and exhibitions
-    ------------------------------------- */
-
-
-    .events {
-        position: relative;
-        display: grid;
-        margin-top: 50px;
-        margin-bottom: 30px;
         margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .events-heading h4 {
-        font-size: 18px;
-        padding: 8px;
-    }
-
-    .professor-text, .night-text, .energetica-text {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    /* About 
-    ------------------- */
-
-    .about h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .about-content {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .about-text {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    /* Visit 
-    --------------------- */
-
-    .visit h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .visit-content {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    /* Get involved 
-    ----------------- */
-
-
-    .get-involved h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .get-involved-content {
-        margin-left: 10%;
-        margin-right: 10%;
     }
 
     .get-involved-content {
@@ -736,20 +528,7 @@ body {
         flex: 1 1 0px;
     }
 
-    /* Explore page 
-    -------------------- */
-
-    .explore-page h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
     .explore-content1 {
-        margin-right: 5%;
-        margin-left: 5%;
         display: flex;
         flex-direction: row;
     }
@@ -760,8 +539,6 @@ body {
         flex: 1 1 0px;
     }
 
-
-
     .for-kids-heading h2, .for-teachers-heading h2, .for-researchers-heading h2 {
         font-size: 20px;
         padding-right: 20px;
@@ -771,46 +548,9 @@ body {
     .for-kids-text p, .for-teachers-text p, .for-researchers-text p {
         font-size: 18px;
     }
-
-    /* Exhibition spaces page
-    ----------------------------- */
-
-    .exhibition-spaces h1 {
-        font-size: 20px;
-        padding: 10px;
-        width: 250px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .exhibition-spaces-mobile {
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .robotics1, .ecology, .evolution, .cosmology, .medicine {
-        display: grid;
-    }
-
-    .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
-        font-size: 18px;
-    }
-
-    .robotics1-text p, .ecology-text p, .evolution-text p, .cosmology-text p, .medicine-text p {
-        font-size: 16px;
-    }
 }
 
-
-
-
-
-
-
-
-
 @media (min-width: 1301px) {
-
 
     .homepage h1 {
         font-size: 30px;
@@ -851,7 +591,6 @@ body {
         background-color: rgba(5, 163, 164, 1);
         border-radius: 20px;
         flex: 1 1 0px;
-
     }
 
     .robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text {
@@ -904,22 +643,13 @@ body {
         font-size: 20px;
     }
 
-
-
     /* Explore-home
     -------------------- */
-  
-
     .explore h3 {
         font-size: 30px;
         padding: 20px;
         width: 400px;
         margin-bottom: 40px;
-    }
-
-    .explore-content {
-        margin-right: 15%;
-        margin-left: 15%;
     }
 
     .explore-image {
@@ -948,14 +678,9 @@ body {
         font-size: 20px;
     }
 
-
-
     /* Special events and exhibitions
     ------------------------------------- */
-
-    
-    .events {
-        margin-bottom: 60px;
+    .events, .about-content, .get-involved-content {
         margin-right: 20%;
         margin-left: 20%;
     }
@@ -985,14 +710,8 @@ body {
 
     /* About 
     ------------------- */
-    
 
-    .about-content {
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .about h1 {
+    .about h1, .visit h1, .get-involved h1, .explore-page h1 {
         font-size: 30px;
         padding: 20px;
         width: 350px;
@@ -1018,78 +737,18 @@ body {
         margin-right: 25%;
     }
 
-    .visit h1 {
-        font-size: 30px;
-        padding: 20px;
-        width: 350px;
-        margin-top: 80px;
-        margin-bottom: 60px;
-    }
-
-    /* Get involved 
-    ----------------- */
-
-    .get-involved-content {
-        margin-left: 20%;
-        margin-right: 20%;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .get-involved h1 {
-        font-size: 30px;
-        padding: 20px;
-        width: 350px;
-        margin-top: 80px;
-        margin-bottom: 60px;
-    }
-
-    .support img, .volunteer img, .internships img {
-        object-fit: fill;
-    }
-
-    .support, .volunteer, .internships {
-        flex: 1 1 0px;
-    }
-
     /* Explore page 
     -------------------- */
 
-    .explore-page h1 {
-        font-size: 30px;
-        padding: 20px;
-        width: 350px;
-        margin-top: 80px;
-        margin-bottom: 60px;
-    }
-
-    .explore-content1 {
+    .explore-content1, .exhibition-spaces3, .exhibition-spaces4 {
         margin-right: 15%;
         margin-left: 15%;
-        display: flex;
-        flex-direction: row;
     }
 
-    .for-kids, .for-teachers, .for-researchers {
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 0px;
-    }
-
-    .for-kids-heading h2, .for-teachers-heading h2, .for-researchers-heading h2 {
-        font-size: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .for-kids-text p, .for-teachers-text p, .for-researchers-text p {
-        font-size: 18px;
-    }
 
     /* Exhibition spaces page 
     -------------------- */
 
-   
     .exhibition-spaces h1 {
         font-size: 30px;
         padding: 20px;
@@ -1098,18 +757,9 @@ body {
         margin-bottom: 60px;
     }
 
-    .exhibition-spaces3 {
+    .exhibition-spaces3, .exhibition-spaces4 {
         display: flex;
         flex-direction: row;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .exhibition-spaces4 {
-        display: flex;
-        flex-direction: row;
-        margin-left: 15%;
-        margin-right: 15%;
     }
 
     .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
