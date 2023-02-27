@@ -18,24 +18,347 @@ body {
     background-color: rgba(191, 213, 201, 1);
 }
 
+.homepage, .explore, .about, .visit, .get-involved, .explore-page, .exhibition-spaces {
+    margin-bottom: 60px;
+}
+
+.homepage h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(232, 137, 29, 1);
+    text-align: center;
+}
+
+.explore h3 {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 99, 115, 1);
+    margin-top: 80px;
+    text-align: center;
+}
+
+.explore-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.explore-content img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+    border: 3px solid rgba(232, 137, 29, 1);
+}
+
+.explore-image {
+    flex: 1 1 0px;
+    min-width: 0;
+}
+
+.explore-content p {
+    display: none;
+}
+
+.explore-button {
+    display: flex;
+    justify-content: center;
+}
+
+.explore-button1 {
+    background-color: rgba(0, 99, 115, 1);
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.explore-button1 a {
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.events img {
+    width: 100%;
+}
+
+.events-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.events-heading h4 {
+    position: absolute;
+    color: rgba(0, 99, 115, 1);
+    background-color: rgba(191, 213, 201, 0.75);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.events-text {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.professor-text, .night-text, .energetica-text {
+    background-color: rgba(0, 99, 115, 1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.events-text h5 {
+    color: rgba(232, 137, 29, 1);
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.events-text p {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(232, 137, 29, 1);
+    text-align: center;
+}
+
+.about-text {
+    background-color: rgba(5, 163, 164, 1);
+    border-radius: 10px;
+}
+
+.about p {
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+.images1 img {
+    width: 100%;
+}
+
+.images1 {
+    display: grid;
+    margin: 10px;
+}
+
+.images1 {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    border: 3px solid rgba(232, 137, 29, 1);
+}
+
+.images1 .column1 img {
+    vertical-align: middle;
+}
+
+.images1 .column2 img {
+    vertical-align: middle;
+}
+
+.images2 img {
+    width: 100%;
+    border: 3px solid rgba(232, 137, 29, 1);
+}
+
+.images2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    gap: 5px;
+}
+
+.visit h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(232, 137, 29, 1);
+    text-align: center;
+}
+
+.visit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 4px solid rgba(5, 163, 164, 1);
+}
+
+.visit-information, .visit-information-hours {
+    background-color: rgba(5, 163, 164, 1);
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.visit-information h2, .visit-information-hours h2 {
+    padding: 10px;
+    color: rgba(0, 99, 115, 1);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.visit-information p {
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.visit-information-hours {
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.get-involved h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(232, 137, 29, 1);
+    text-align: center;
+}
+
+.support img, .volunteer img, .internships img {
+    width: 100%;
+}
+
+.support, .volunteer, .internships {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(191, 213, 201, 1);
+    text-align: center;
+    border: 5px solid rgba(0, 99, 115, 1);
+}
+
+.support-text, .volunteer-text, .internships-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.support-text h2, .volunteer-text h2, .internships-text h2 {
+    color: rgba(0, 99, 115, 1);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.support-text p, .volunteer-text p, .internships-text p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.explore-page h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(232, 137, 29, 1);
+    padding: 10px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.for-kids img, .for-teachers img, .for-researchers img {
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.for-kids, .for-teachers, .for-researchers {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.for-kids-heading, .for-kids-text, .for-teachers-heading, .for-teachers-text, .for-researchers-heading, .for-researchers-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.for-kids-heading h2, .for-teachers-heading h2, .for-researchers-heading h2 {
+    position: absolute;
+    color: rgba(232, 137, 29, 1);
+    background-color: white;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.for-kids-text, .for-teachers-text, .for-researchers-text {
+    background-color: rgba(0, 99, 115, 1);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.for-kids-text p, .for-teachers-text p, .for-researchers-text p {
+    padding: 10px;
+    color: white;
+}
+
+.exhibition-spaces h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(232, 137, 29, 1);
+    text-align: center;
+}
+
+.robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.robotics1, .ecology, .evolution, .cosmology, .medicine {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(5, 163, 164, 1);
+    border-radius: 20px;
+}
+
+.robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text, .cosmology-heading, .cosmology-text, .medicine-heading, .medicine-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
+    position: absolute;
+    color: rgba(232, 137, 29, 1);
+    background-color: white;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     /* Homepage
     ------------------ */
 
-    .homepage {
-        margin-bottom: 60px;
-    }
-
     .homepage h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 10px;
         width: 250px;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
     }
 
     .exhibition-spaces-desktop {
@@ -105,67 +428,29 @@ body {
 
     /* Explore-home
     -------------------- */
-    .explore {
-        margin-bottom: 60px;
-    }
+    
 
     .explore h3 {
-        text-transform: uppercase;
-        color: white;
         font-size: 20px;
-        background-color: rgba(0, 99, 115, 1);
         padding: 10px;
         width: 300px;
-        margin-top: 80px;
         margin-bottom: 50px;
-        text-align: center;
-        /* float: right; */
     }
 
     .explore-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    .explore-content img {
-        width: 100%;
-        object-fit: fill;
-        border-radius: 50%;
-        border: 3px solid rgba(232, 137, 29, 1);
-    }
-
     .explore-image {
-        flex: 1 1 0px;
         margin: 5px;
-        min-width: 0;
-    }
-
-    .explore-content p {
-        display: none;
-    }
-
-    .explore-button {
-        display: flex;
-        justify-content: center;
     }
 
     .explore-button1 {
-        background-color: rgba(0, 99, 115, 1);
-        margin-top: 30px;
-        border: none;
         padding: 10px;
-        border-radius: 10px;
     }
 
     .explore-button1 a {
-        color: white;
-        text-transform: uppercase;
-        padding: 10px;
-        text-decoration: none;
-        font-weight: bold;
         font-size: 18px;
     }
 
@@ -173,9 +458,7 @@ body {
     /* Special events and exhibitions
     ------------------------------------- */
 
-    .events img {
-        width: 100%;
-    }
+    
 
     .events {
         position: relative;
@@ -184,258 +467,94 @@ body {
         margin-bottom: 30px;
     }
 
-    .events-heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
     .events-heading h4 {
-        position: absolute;
-        color: rgba(0, 99, 115, 1);
-        background-color: rgba(191, 213, 201, 0.75);
-        text-transform: uppercase;
         font-size: 18px;
         padding: 8px;
-        text-align: center;
-    }
-
-    .events-text {
-        margin-right: 10px;
-        margin-left: 10px;
-        text-align: center;
     }
 
     .professor-text, .night-text, .energetica-text {
-        background-color: rgba(0, 99, 115, 1);
-        border-radius: 10px;
-        padding: 5px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     .events-text h5 {
-        color: rgba(232, 137, 29, 1);
         font-size: 18px;
-        padding: 5px;
-        text-transform: uppercase;
     }
 
     .events-text p {
-        color: white;
         font-size: 16px;
-        padding: 5px;
     }
 
     /* About 
     ------------------- */
-    .about {
-        margin-bottom: 60px;
-    }
-
-    .about h1 {
-        text-transform: uppercase;
-        color: white;
-        font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
-        padding: 10px;
-        width: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-
     .about-content {
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    .about-text {
-        background-color: rgba(5, 163, 164, 1);
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-    }
-
-    .about p {
-        color: black;
-        font-size: 16px;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .images1 img {
-        width: 100%;
-    }
-
-    .images1 {
-        display: grid;
-        margin: 10px;
-    }
-
-    .images1 {
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        border: 3px solid rgba(232, 137, 29, 1);
-    }
-
-    .images1 .column1 img {
-        vertical-align: middle;
-    }
-
-    .images1 .column2 img {
-        vertical-align: middle;
-    }
-
-    .images2 img {
-        width: 100%;
-        border: 3px solid rgba(232, 137, 29, 1);
-    }
-
-    .images2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 10px;
-        gap: 5px;
-    }
-
-    /* Visit 
-    --------------------- */
-
-    .visit {
-        margin-bottom: 60px;
-    }
-
-    .visit h1 {
-        text-transform: uppercase;
-        color: white;
+    .about h1 {
         font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 10px;
         width: 200px;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
     }
 
+    .about-text {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        padding: 10px;
+    }
+
+    /* Visit 
+    --------------------- */
     .visit-content {
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    .visit img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        border: 4px solid rgba(5, 163, 164, 1);
-    }
-
-    .visit-information, .visit-information-hours {
-        background-color: rgba(5, 163, 164, 1);
-        text-align: center;
-        margin: 20px;
-        border-radius: 10px;
-    }
-
-    .visit-information h2, .visit-information-hours h2 {
-        padding: 10px;
-        color: rgba(0, 99, 115, 1);
-        text-transform: uppercase;
-        font-size: 18px;
-    }
-
-    .visit-information p {
-        padding: 10px;
-        color: white;
-        font-size: 16px;
-    }
-
-    .visit-information-hours {
-        color: white;
-        font-size: 16px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    /* Get involved 
-    ----------------- */
-
-    .get-involved {
-        margin-bottom: 60px;
-    }
-
-    .get-involved h1 {
-        text-transform: uppercase;
-        color: white;
+    .visit h1 {
         font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 10px;
         width: 200px;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
     }
+
+    /* Get involved 
+    ----------------- */
 
     .get-involved-content {
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    .support img, .volunteer img, .internships img {
-        width: 100%;
+    .get-involved h1 {
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .support, .volunteer, .internships {
-        /* position: relative; */
         display: grid;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        background-color: rgba(191, 213, 201, 1);
-        text-align: center;
-        border: 5px solid rgba(0, 99, 115, 1);
-    }
-
-    .support-text, .volunteer-text, .internships-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 5px;
-    }
-
-    .support-text h2, .volunteer-text h2, .internships-text h2 {
-        color: rgba(0, 99, 115, 1);
-        text-transform: uppercase;
-        font-size: 18px;
-        padding: 10px;
-    }
-
-    .support-text p, .volunteer-text p, .internships-text p {
-        font-size: 16px;
-        padding: 5px;
     }
 
     /* Explore page 
     -------------------- */
 
-    .explore-page {
-        margin-bottom: 60px;
-    }
-
     .explore-page h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 10px;
         width: 200px;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
     }
 
     .explore-content1 {
@@ -443,66 +562,28 @@ body {
         margin-right: 10%;
     }
 
-    .for-kids img, .for-teachers img, .for-researchers img {
-        width: 100%;
-        border-top-right-radius: 30px;
-        border-top-left-radius: 30px;
-    }
-
     .for-kids, .for-teachers, .for-researchers {
         display: grid;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
-
-    .for-kids-heading, .for-kids-text, .for-teachers-heading, .for-teachers-text, .for-researchers-heading, .for-researchers-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
     }
 
     .for-kids-heading h2, .for-teachers-heading h2, .for-researchers-heading h2 {
-        position: absolute;
-        color: rgba(232, 137, 29, 1);
-        background-color: white;
-        text-transform: uppercase;
         font-size: 18px;
         padding-right: 50px;
         padding-left: 50px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-align: center;
-    }
-
-    .for-kids-text, .for-teachers-text, .for-researchers-text {
-        background-color: rgba(0, 99, 115, 1);
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 30px;
     }
 
     .for-kids-text p, .for-teachers-text p, .for-researchers-text p {
         font-size: 16px;
-        padding: 10px;
-        color: white;
     }
 
     /* Exhibition spaces page
     ----------------------------- */
-    .exhibition-spaces {
-        margin-bottom: 60px;
-    }
-
     .exhibition-spaces h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 10px;
         width: 250px;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
     }
 
     .exhibition-spaces-mobile {
@@ -510,38 +591,12 @@ body {
         margin-right: 10%;
     }
 
-    .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
-        width: 100%;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-
     .robotics1, .ecology, .evolution, .cosmology, .medicine {
         display: grid;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        background-color: rgba(5, 163, 164, 1);
-        border-radius: 20px;
-    }
-
-    .robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text, .cosmology-heading, .cosmology-text, .medicine-heading, .medicine-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
     }
 
     .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
-        position: absolute;
-        color: rgba(232, 137, 29, 1);
-        background-color: white;
-        text-transform: uppercase;
         font-size: 18px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
     }
 
     .robotics1-text p, .ecology-text p, .evolution-text p, .cosmology-text p, .medicine-text p {
@@ -551,24 +606,24 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1300px) {
         /* Homepage
     ------------------ */
 
-    .homepage {
-        margin-bottom: 60px;
-    }
-
     .homepage h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 20px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 10px;
         width: 250px;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
     }
 
     .exhibition-spaces-desktop {
@@ -638,9 +693,6 @@ body {
 
     /* Explore-home
     -------------------- */
-    .explore {
-        margin-bottom: 60px;
-    }
 
     .explore h3 {
         text-transform: uppercase;
@@ -1104,20 +1156,13 @@ body {
 
 @media (min-width: 1301px) {
 
-    .homepage {
-        margin-bottom: 60px;
-    }
 
     .homepage h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 20px;
         width: 400px;
         margin-top: 80px;
         margin-bottom: 60px;
-        text-align: center;
     }
 
     .robotics {
@@ -1208,47 +1253,27 @@ body {
 
     /* Explore-home
     -------------------- */
-    .explore {
-        margin-bottom: 60px;
-    }
+  
 
     .explore h3 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(0, 99, 115, 1);
         padding: 20px;
         width: 400px;
-        margin-top: 80px;
         margin-bottom: 40px;
-        text-align: center;
-        /* float: right; */
     }
 
     .explore-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         margin-right: 15%;
         margin-left: 15%;
     }
 
-    .explore-content img {
-        width: 100%;
-        object-fit: fill;
-        border-radius: 50%;
-        border: 3px solid rgba(232, 137, 29, 1);
-    }
-
     .explore-image {
-        flex: 1 1 0px;
         margin: 10px;
-        min-width: 0;
     }
 
-    .explore-content p {
+    /* .explore-content p {
         display: none;
-    }
+    } */
         /* text-align: center;
         margin-top: 20px;
         font-size: 20px;
@@ -1260,25 +1285,11 @@ body {
         padding: 10px;
     } */
 
-    .explore-button {
-        display: flex;
-        justify-content: center;
-    }
-
     .explore-button1 {
-        background-color: rgba(0, 99, 115, 1);
-        margin-top: 30px;
-        border: none;
         padding: 15px;
-        border-radius: 10px;
     }
 
     .explore-button1 a {
-        color: white;
-        text-transform: uppercase;
-        padding: 10px;
-        text-decoration: none;
-        font-weight: bold;
         font-size: 20px;
     }
 
@@ -1287,68 +1298,39 @@ body {
     /* Special events and exhibitions
     ------------------------------------- */
 
-    .events img {
-        width: 100%;
-    }
-
+    
     .events {
-        /* position: relative; */
-        /* display: grid; */
-        /* margin-top: 100px; */
         margin-bottom: 60px;
         margin-right: 20%;
         margin-left: 20%;
     }
 
-    .events-heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
     .events-heading h4 {
-        position: absolute;
-        color: rgba(0, 99, 115, 1);
-        background-color: rgba(191, 213, 201, 0.75);
-        text-transform: uppercase;
         font-size: 30px;
         padding: 20px;
-        text-align: center;
     }
 
     .events-text {
-        margin-right: 10px;
-        margin-left: 10px;
-        text-align: center;
         display: flex;
         flex-direction: row;
     }
 
     .professor-text, .night-text, .energetica-text {
-        background-color: rgba(0, 99, 115, 1);
-        border-radius: 10px;
         padding: 5px;
         margin: 10px;
     }
 
     .events-text h5 {
-        color: rgba(232, 137, 29, 1);
         font-size: 20px;
-        padding: 5px;
-        text-transform: uppercase;
     }
 
     .events-text p {
-        color: white;
         font-size: 18px;
-        padding: 5px;
     }
 
     /* About 
     ------------------- */
-    .about {
-        margin-bottom: 60px;
-    }
+    
 
     .about-content {
         margin-left: 20%;
@@ -1356,210 +1338,76 @@ body {
     }
 
     .about h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 20px;
         width: 350px;
         margin-top: 80px;
         margin-bottom: 60px;
-        text-align: center;
     }
 
     .about-text {
-        background-color: rgba(5, 163, 164, 1);
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
-        border-radius: 10px;
     }
 
     .about p {
-        color: black;
-        font-size: 16px;
         padding: 30px;
-        text-align: center;
-    }
-
-    .images1 img {
-        width: 100%;
-    }
-
-    .images1 {
-        display: grid;
-        margin: 10px;
-    }
-
-    .images1 {
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        border: 3px solid rgba(232, 137, 29, 1);
-    }
-
-    .images1 .column1 img {
-        vertical-align: middle;
-    }
-
-    .images1 .column2 img {
-        vertical-align: middle;
-    }
-
-    .images2 img {
-        width: 100%;
-        border: 3px solid rgba(232, 137, 29, 1);
-    }
-
-    .images2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 10px;
-        gap: 5px;
     }
 
     /* Visit 
     --------------------- */
-
-    .visit {
-        margin-bottom: 60px;
-    }
-
     .visit-content {
         margin-left: 25%;
         margin-right: 25%;
     }
 
     .visit h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 20px;
         width: 350px;
         margin-top: 80px;
         margin-bottom: 60px;
-        text-align: center;
-    }
-
-    .visit img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        border: 4px solid rgba(5, 163, 164, 1);
-    }
-
-    .visit-information, .visit-information-hours {
-        background-color: rgba(5, 163, 164, 1);
-        text-align: center;
-        margin: 20px;
-        border-radius: 10px;
-    }
-
-    .visit-information h2, .visit-information-hours h2 {
-        padding: 10px;
-        color: rgba(0, 99, 115, 1);
-        text-transform: uppercase;
-        font-size: 18px;
-    }
-
-    .visit-information p {
-        padding: 10px;
-        color: white;
-        font-size: 16px;
-    }
-
-    .visit-information-hours {
-        color: white;
-        font-size: 16px;
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
 
     /* Get involved 
     ----------------- */
 
-    .get-involved {
-        margin-bottom: 60px;
-    }
-
     .get-involved-content {
         margin-left: 20%;
         margin-right: 20%;
-    }
-
-    .get-involved-content {
         display: flex;
         flex-direction: row;
     }
 
     .get-involved h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 20px;
         width: 350px;
         margin-top: 80px;
         margin-bottom: 60px;
-        text-align: center;
     }
 
     .support img, .volunteer img, .internships img {
-        width: 100%;
         object-fit: fill;
     }
 
     .support, .volunteer, .internships {
-        /* position: relative; */
-        /* display: grid; */
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        background-color: rgba(191, 213, 201, 1);
-        text-align: center;
-        border: 5px solid rgba(0, 99, 115, 1);
         flex: 1 1 0px;
-    }
-
-    .support-text, .volunteer-text, .internships-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 5px;
-    }
-
-    .support-text h2, .volunteer-text h2, .internships-text h2 {
-        color: rgba(0, 99, 115, 1);
-        text-transform: uppercase;
-        font-size: 18px;
-        padding: 10px;
-    }
-
-    .support-text p, .volunteer-text p, .internships-text p {
-        font-size: 16px;
-        padding: 5px;
     }
 
     /* Explore page 
     -------------------- */
 
-    .explore-page {
-        margin-bottom: 60px;
-    }
+    
 
     .explore-page h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 20px;
         width: 350px;
         margin-top: 80px;
         margin-bottom: 60px;
-        text-align: center;
     }
 
     .explore-content1 {
@@ -1569,69 +1417,32 @@ body {
         flex-direction: row;
     }
 
-    .for-kids img, .for-teachers img, .for-researchers img {
-        width: 100%;
-        border-top-right-radius: 30px;
-        border-top-left-radius: 30px;
-    }
-
     .for-kids, .for-teachers, .for-researchers {
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
         flex: 1 1 0px;
     }
 
-    .for-kids-heading, .for-kids-text, .for-teachers-heading, .for-teachers-text, .for-researchers-heading, .for-researchers-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
     .for-kids-heading h2, .for-teachers-heading h2, .for-researchers-heading h2 {
-        position: absolute;
-        color: rgba(232, 137, 29, 1);
-        background-color: white;
-        text-transform: uppercase;
         font-size: 20px;
         padding-right: 20px;
         padding-left: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-align: center;
-    }
-
-    .for-kids-text, .for-teachers-text, .for-researchers-text {
-        background-color: rgba(0, 99, 115, 1);
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 30px;
     }
 
     .for-kids-text p, .for-teachers-text p, .for-researchers-text p {
         font-size: 18px;
-        padding: 10px;
-        color: white;
     }
 
     /* Exhibition spaces page 
     -------------------- */
 
-    .exhibition-spaces {
-        margin-bottom: 60px;
-    }
-
+   
     .exhibition-spaces h1 {
-        text-transform: uppercase;
-        color: white;
         font-size: 30px;
-        background-color: rgba(232, 137, 29, 1);
         padding: 20px;
         width: 400px;
         margin-top: 80px;
         margin-bottom: 60px;
-        text-align: center;
     }
 
     .exhibition-spaces3 {
@@ -1649,42 +1460,21 @@ body {
     }
 
     .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
-        width: 100%;
         object-fit: fill;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
     }
 
     .robotics1, .ecology, .evolution, .cosmology, .medicine {
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        background-color: rgba(5, 163, 164, 1);
-        border-radius: 20px;
         flex: 1 1 0px;
-
     }
 
     .robotics1-heading, .robotics1-text, .ecology-heading, .ecology-text, .evolution-heading, .evolution-text, .cosmology-heading, .cosmology-text, .medicine-heading, .medicine-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         height: fit-content;
     }
 
     .robotics1-heading h2, .ecology-heading h2, .evolution-heading h2, .cosmology-heading h2, .medicine-heading h2 {
-        position: absolute;
-        color: rgba(232, 137, 29, 1);
-        background-color: white;
-        text-transform: uppercase;
         font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
     }
 
     .robotics1-text p, .ecology-text p, .evolution-text p, .cosmology-text p, .medicine-text p {
