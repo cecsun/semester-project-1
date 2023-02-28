@@ -25,7 +25,7 @@ body {
 .homepage h1, .about h1, .visit h1, .get-involved h1, .explore-page h1, .exhibition-spaces h1 {
     text-transform: uppercase;
     color: white;
-    background-color: rgba(232, 137, 29, 1);
+    background-color: rgba(220, 124, 15, 1);
     text-align: center;
 }
 
