@@ -168,11 +168,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    border: 4px solid rgba(5, 163, 164, 1);
+    border: 4px solid rgba(0, 99, 115, 1);
 }
 
 .visit-information, .visit-information-hours {
-    background-color: rgba(5, 163, 164, 1);
+    background-color: rgba(0, 99, 115, 1);
     text-align: center;
     margin: 20px;
     border-radius: 10px;
@@ -180,9 +180,9 @@ body {
 
 .visit-information h2, .visit-information-hours h2 {
     padding: 10px;
-    color: rgba(0, 99, 115, 1);
+    color: white;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .visit-information p {
