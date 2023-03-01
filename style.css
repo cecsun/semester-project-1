@@ -64,20 +64,20 @@ body {
     justify-content: center;
 }
 
-.explore-button1 {
+.explore-button button {
     background-color: rgba(0, 99, 115, 1);
-    margin-top: 30px;
     border: none;
     padding: 10px;
     border-radius: 10px;
-}
-
-.explore-button1 a {
     color: white;
     text-transform: uppercase;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.explore-button button:hover {
+    background-color: rgba(220, 124, 15, 1);
 }
 
 .events img, .images1 img, .images2 img, .support img, .volunteer img, .internships img, .for-kids img, .for-teachers img, .for-researchers img, .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
@@ -358,20 +358,21 @@ body {
         justify-content: center;
     }
 
-    .exhibition-spaces-button {
+    .exhibition-button button {
         background-color: rgba(220, 124, 15, 1);
         border: none;
         padding: 10px;
         border-radius: 10px;
-    }
-
-    .exhibition-spaces-button a {
         color: white;
         text-transform: uppercase;
         padding: 10px;
         text-decoration: none;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .exhibition-button button:hover {
+        background-color: rgba(5, 163, 164, 1);
     }
 
     /* Explore-home
@@ -387,12 +388,12 @@ body {
         margin: 5px;
     }
 
-    .explore-button1 {
+    .explore-button {
         padding: 10px;
     }
 
-    .explore-button1 a {
-        font-size: 18px;
+    .explore-button button {
+        font-size: 16px;
     }
 
     /* Special events and exhibitions
@@ -620,7 +621,7 @@ body {
         padding: 20px;
     }
 
-    .exhibition-spaces-button {
+    .exhibition-button {
         display: none;
     }
 
@@ -629,20 +630,21 @@ body {
         justify-content: center;
     }
 
-    .exhibition-spaces-button1 {
+    .exhibition-button1 button {
         background-color: rgba(220, 124, 15, 1);
         border: none;
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
-    }
-
-    .exhibition-spaces-button1 a {
         color: white;
         text-transform: uppercase;
         padding: 10px;
         text-decoration: none;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .exhibition-button1 button:hover {
+        background-color: rgba(5, 163, 164, 1);
     }
 
     /* Explore-home
@@ -672,12 +674,12 @@ body {
         padding: 10px;
     } */
 
-    .explore-button1 {
+    .explore-button {
         padding: 15px;
     }
 
-    .explore-button1 a {
-        font-size: 20px;
+    .explore-button button {
+        font-size: 18px;
     }
 
     /* Special events and exhibitions
