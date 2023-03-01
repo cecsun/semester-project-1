@@ -302,7 +302,7 @@ body {
     }
 }
 
-@media (max-width: 800px), (min-width: 801px) and (max-width: 1300px) {
+@media (max-width: 1300px) {
     /* Homepage
     ------------------ */
     .homepage h1 {
@@ -511,7 +511,7 @@ body {
     }
 }
 
-@media (min-width: 1301px), (min-width: 801px) and (max-width: 1300px) {
+@media (min-width: 801px) {
     .explore-content {
         margin-right: 15%;
         margin-left: 15%;
