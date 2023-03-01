@@ -64,7 +64,7 @@ body {
     justify-content: center;
 }
 
-.explore-button button {
+.explore-button a {
     background-color: rgba(0, 99, 115, 1);
     border: none;
     padding: 10px;
@@ -76,7 +76,7 @@ body {
     font-weight: bold;
 }
 
-.explore-button button:hover {
+.explore-button a:hover {
     background-color: rgba(220, 124, 15, 1);
 }
 
@@ -358,7 +358,7 @@ body {
         justify-content: center;
     }
 
-    .exhibition-button button {
+    .exhibition-button a {
         background-color: rgba(220, 124, 15, 1);
         border: none;
         padding: 10px;
@@ -371,7 +371,7 @@ body {
         font-size: 16px;
     }
 
-    .exhibition-button button:hover {
+    .exhibition-button a:hover {
         background-color: rgba(5, 163, 164, 1);
     }
 
@@ -392,7 +392,7 @@ body {
         padding: 10px;
     }
 
-    .explore-button button {
+    .explore-button a {
         font-size: 16px;
     }
 
@@ -630,7 +630,7 @@ body {
         justify-content: center;
     }
 
-    .exhibition-button1 button {
+    .exhibition-button1 a {
         background-color: rgba(220, 124, 15, 1);
         border: none;
         padding: 10px;
@@ -643,7 +643,7 @@ body {
         font-size: 18px;
     }
 
-    .exhibition-button1 button:hover {
+    .exhibition-button1 a:hover {
         background-color: rgba(5, 163, 164, 1);
     }
 
@@ -678,7 +678,7 @@ body {
         padding: 15px;
     }
 
-    .explore-button button {
+    .explore-button a {
         font-size: 18px;
     }
 
