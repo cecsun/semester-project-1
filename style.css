@@ -80,7 +80,7 @@ body {
     background-color: rgba(220, 124, 15, 1);
 }
 
-.events img, .images1 img, .images2 img, .support img, .volunteer img, .internships img, .for-kids img, .for-teachers img, .for-researchers img, .robotics1 img, .ecology img, .evolution img, .cosmology img, .medicine img {
+img {
     width: 100%;
 }
 
