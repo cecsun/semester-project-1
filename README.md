@@ -1,4 +1,4 @@
-# Semester-Project-1
+# Semester Project 1
 
 ![image](/images/logo.png)
 
